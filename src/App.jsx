@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import SiteHeader from './components/SiteHeader';
+import SiteFooter from './components/SiteFooter';
 import ExecutiveDashboard  from './components/ExecutiveDashboard';
 import ComplianceRegister  from './components/ComplianceRegister';
 import RiskGapAnalysis     from './components/RiskGapAnalysis';
@@ -29,7 +31,9 @@ export default function App() {
   };
 
   return (
-    <div className="app">
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
+      <SiteHeader />
+      <div className="app" style={{ flex: 1, minHeight: 0, height: 'auto' }}>
       {/* Mobile top bar */}
       <div className="mobile-topbar">
         <button className="hamburger" onClick={() => setSidebarOpen((o) => !o)} aria-label="Menu">
@@ -74,6 +78,8 @@ export default function App() {
       <main className="main">
         <ActivePage />
       </main>
+      </div>
+      <SiteFooter />
     </div>
   );
 }
