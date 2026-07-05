@@ -3,7 +3,7 @@ export const C = {
   amber:  '#F97316',   // In Progress — Quantio orange
   slate:  'rgba(15,23,42,0.30)', // Phase 2 — muted
   red:    '#EF4444',   // High Risk / Missing — Quantio red
-  blue:   '#2563EB',   // KPI accent — Quantio blue
+  blue:   '#5B7FA6',   // KPI accent — Quantio blue
 };
 
 export const STATUS_COLORS = {
