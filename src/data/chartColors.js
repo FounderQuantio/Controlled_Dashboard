@@ -1,9 +1,9 @@
 export const C = {
-  teal:   '#2DD4BF',   // Implemented — Quantio teal
+  teal:   '#0D9488',   // Implemented — Quantio teal
   amber:  '#F97316',   // In Progress — Quantio orange
-  slate:  'rgba(255,255,255,0.30)', // Phase 2 — muted
+  slate:  'rgba(15,23,42,0.30)', // Phase 2 — muted
   red:    '#EF4444',   // High Risk / Missing — Quantio red
-  blue:   '#ABABAB',   // KPI accent — Quantio gold
+  blue:   '#2563EB',   // KPI accent — Quantio blue
 };
 
 export const STATUS_COLORS = {
@@ -23,5 +23,5 @@ export const RISK_COLORSCALE = [
 export const plotBase = {
   paper_bgcolor: 'transparent',
   plot_bgcolor:  'transparent',
-  font: { color: 'rgba(255,255,255,0.50)', size: 11 },
+  font: { color: 'rgba(15,23,42,0.50)', size: 11 },
 };
