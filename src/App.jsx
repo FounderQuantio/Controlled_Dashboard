@@ -6,8 +6,6 @@ import ComplianceRegister  from './components/ComplianceRegister';
 import RiskGapAnalysis     from './components/RiskGapAnalysis';
 import EvidenceTracker     from './components/EvidenceTracker';
 import NationalImpactCalc  from './components/NationalImpactCalc';
-import DhanasarGuide       from './components/DhanasarGuide';
-import VersionControl      from './components/VersionControl';
 
 const NAV = [
   { id: 'dashboard', label: 'Executive Dashboard',  icon: '①', component: ExecutiveDashboard },
@@ -15,8 +13,6 @@ const NAV = [
   { id: 'risk',      label: 'Risk & Gap Analysis',  icon: '③', component: RiskGapAnalysis },
   { id: 'evidence',  label: 'Evidence Tracker',     icon: '④', component: EvidenceTracker },
   { id: 'impact',    label: 'National Impact Calc.', icon: '⑤', component: NationalImpactCalc },
-  { id: 'dhanasar',  label: 'Dhanasar Guide',       icon: '⑥', component: DhanasarGuide },
-  { id: 'versions',  label: 'Version Control',      icon: '⑦', component: VersionControl },
 ];
 
 export default function App() {
