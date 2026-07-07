@@ -12,8 +12,8 @@ export default function InfoTooltip({ text }) {
       <span style={{
         display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
         width: 16, height: 16, borderRadius: '50%',
-        background: 'transparent', border: '1.5px solid rgba(15,23,42,0.4)',
-        color: '#0F172A', fontSize: 10, fontWeight: 700,
+        background: 'transparent', border: '1.5px solid rgba(33,36,39,0.4)',
+        color: '#212427', fontSize: 10, fontWeight: 700,
         cursor: 'default', lineHeight: 1, userSelect: 'none',
       }}>i</span>
 

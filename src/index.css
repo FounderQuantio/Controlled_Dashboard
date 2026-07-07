@@ -83,17 +83,17 @@ thead                  { background: var(--qg-surface-2); }
 th                     { padding: 7px 12px; text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--qg-text-3); font-weight: 600; white-space: nowrap; border-bottom: 1px solid var(--qg-border-2); }
 td                     { padding: 6px 12px; border-bottom: 1px solid var(--qg-border); color: var(--qg-text-2); font-size: 12px; vertical-align: middle; }
 tbody tr:last-child td { border-bottom: none; }
-tbody tr:nth-child(even) { background: rgba(15,23,42,0.018); }
+tbody tr:nth-child(even) { background: rgba(33,36,39,0.018); }
 tbody tr:hover         { background: var(--qg-gold-tint-3); transition: background .12s; }
 
 /* ─── Badges ──────────────────────────────────────────────────────────────── */
 .badge        { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; padding: 2px 8px; border-radius: 20px; font-size: 10px; font-weight: 700; white-space: nowrap; border: 1.5px solid transparent; letter-spacing: 0.02em; }
 .badge-teal   { background: var(--qg-teal-bg);    color: var(--qg-teal);   border-color: var(--qg-teal-border); }
 .badge-amber  { background: var(--qg-orange-bg);  color: var(--qg-orange); border-color: var(--qg-orange-border); }
-.badge-slate  { background: rgba(15,23,42,0.06); color: var(--qg-text-3); border-color: var(--qg-border); }
+.badge-slate  { background: rgba(33,36,39,0.06); color: var(--qg-text-3); border-color: var(--qg-border); }
 .badge-red    { background: var(--qg-red-bg);     color: var(--qg-red);    border-color: var(--qg-red-border); }
 .badge-blue   { background: var(--qg-gold-tint-2); color: var(--qg-gold);  border-color: var(--qg-gold-border); }
-.badge-gray   { background: rgba(15,23,42,0.06); color: var(--qg-text-3); border-color: var(--qg-border); }
+.badge-gray   { background: rgba(33,36,39,0.06); color: var(--qg-text-3); border-color: var(--qg-border); }
 .badge-green  { background: var(--qg-green-bg);   color: var(--qg-green);  border-color: var(--qg-green-border); }
 .badge-yellow { background: var(--qg-yellow-bg);  color: var(--qg-yellow); border-color: var(--qg-yellow-border); }
 .badge-purple { background: var(--qg-purple-bg);  color: var(--qg-purple); border-color: var(--qg-purple-border); }
