@@ -1,6 +1,6 @@
 /* ─── Layout ─────────────────────────────────────────────────────────────── */
-.app  { display: flex; height: 100vh; overflow: hidden; }
-.main { flex: 1; overflow-y: auto; }
+.app  { display: flex; }
+.main { flex: 1; min-width: 0; }
 .page { padding: 24px 28px; max-width: 1400px; margin: 0 auto; width: 100%; }
 
 /* Widen sidebar slightly to fit longer nav labels */
@@ -27,9 +27,10 @@
     position: fixed; top: 52px; left: 0; bottom: 0; z-index: 300;
     transform: translateX(-100%); width: 240px;
     box-shadow: var(--qg-shadow-lg);
-    height: auto;
+    height: auto; overflow-y: auto;
   }
   .qg-sidebar.sidebar-open { transform: translateX(0); }
+  .qg-sidebar-sticky { min-height: 100%; position: static; }
   .sidebar-overlay {
     display: block; position: fixed; inset: 52px 0 0 0;
     background: var(--qg-overlay); z-index: 299;

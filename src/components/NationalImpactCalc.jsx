@@ -110,19 +110,18 @@ export default function NationalImpactCalc() {
 
       <div className="chart-card" style={{ marginBottom: 24 }}>
         <h3>National Benefit Waterfall</h3>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <Plot
-            data={[{ ...waterfall, width: [0.35, 0.35, 0.35] }]}
-            layout={{
-              ...plotBase, font: { ...plotBase.font, size: 12 }, height: 280, width: 680,
-              xaxis: { color: '#94a3b8', gridcolor: '#334155' },
-              yaxis: { color: '#94a3b8', gridcolor: '#334155', tickprefix: '$', ticksuffix: 'M' },
-              margin: { t: 30, b: 50, l: 70, r: 20 },
-              showlegend: false,
-            }}
-            config={cfg}
-          />
-        </div>
+        <Plot
+          data={[{ ...waterfall, width: [0.35, 0.35, 0.35] }]}
+          layout={{
+            ...plotBase, font: { ...plotBase.font, size: 12 }, height: 280,
+            xaxis: { color: '#94a3b8', gridcolor: '#334155' },
+            yaxis: { color: '#94a3b8', gridcolor: '#334155', tickprefix: '$', ticksuffix: 'M' },
+            margin: { t: 30, b: 50, l: 70, r: 20 },
+            showlegend: false,
+          }}
+          config={cfg}
+          style={{ width: '100%' }}
+        />
       </div>
 
       <div className="table-wrap">

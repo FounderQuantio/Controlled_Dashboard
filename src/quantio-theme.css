@@ -320,13 +320,14 @@ input, textarea, select, button {
   width: 208px;
   background: var(--qg-sidebar);
   border-right: 1px solid var(--qg-border);
+  flex-shrink: 0;
+}
+
+.qg-sidebar-sticky {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   position: sticky;
   top: 0;
-  flex-shrink: 0;
-  overflow: hidden;
 }
 
 .qg-sidebar-header {
